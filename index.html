@@ -12,13 +12,19 @@ body, html {
   color: #777;
 }
 .fa {
-  padding: 20px;
+  padding: 15px;
   font-size: 30px;
   width: 30px;
   text-align: center;
   text-decoration: none;
   margin: 5px 2px;
   border-radius: 50%;
+}
+
+@media only screen and (max-width: 600px) {
+  .fa {
+    padding: 13px;
+  }
 }
 
 .fa:hover {
@@ -62,6 +68,13 @@ body, html {
   text-align: left;
 }
 
+@media only screen and (max-width: 600px) {
+  .caption {
+    left: 3%;
+    top: 3%;
+  }
+}
+
 .social {
   position: absolute;
   right: 3%;
@@ -69,11 +82,6 @@ body, html {
   text-align: right;
 }
 
-@media only screen and (max-width: 600px) {
-  .social {
-     height:30px;
-  }
-}
 
 .logo {
   height:100px;
@@ -81,7 +89,7 @@ body, html {
 
 @media only screen and (max-width: 600px) {
   .logo {
-     height:50px;
+     height:60px;
   }
 }
 
