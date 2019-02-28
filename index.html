@@ -3,12 +3,31 @@
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
 body, html {
   height: 100%;
   margin: 0;
   font: 400 15px/1.8 "Lato", sans-serif;
   color: #777;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
 }
 
 .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {
@@ -43,6 +62,19 @@ body, html {
   text-align: left;
 }
 
+.social {
+  position: absolute;
+  right: 3%;
+  top: 3%;
+  text-align: right;
+}
+
+@media only screen and (max-width: 600px) {
+  .social {
+     height:30px;
+  }
+}
+
 .logo {
   height:100px;
 }
@@ -73,6 +105,9 @@ h3 {
 <div class="bgimg-1">
   <div class="caption">
       <img class="logo" src="img/ruka_logo_white_clear.png">
+  </div>
+  <div class="social">
+      <a href="#" class="fa fa-instagram"></a>
   </div>
 </div>
 
